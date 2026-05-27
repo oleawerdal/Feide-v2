@@ -1,0 +1,2903 @@
+dn: ou=people,dc=skole,dc=kommune,dc=no
+objectClass: organizationalUnit
+ou: people
+
+dn: ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: organizationalUnit
+ou: groups
+
+dn: uid=admin.skole,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: admin.skole
+cn: Ada Administrator
+sn: Administrator
+givenName: Ada
+displayName: Ada Administrator
+mail: admin.skole@skole.kommune.no
+eduPersonPrincipalName: admin.skole@skole.kommune.no
+eduPersonAffiliation: employee
+eduPersonAffiliation: staff
+eduPersonPrimaryAffiliation: employee
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 12058000025
+userPassword: Admin123!
+
+dn: uid=anne.olsen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: anne.olsen
+cn: Anne Olsen
+sn: Olsen
+givenName: Anne
+displayName: Anne Olsen
+mail: anne.olsen@skole.kommune.no
+eduPersonPrincipalName: anne.olsen@skole.kommune.no
+eduPersonAffiliation: employee
+eduPersonAffiliation: faculty
+eduPersonPrimaryAffiliation: employee
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 02027100077
+userPassword: Laerer123!
+
+dn: uid=ola.berg,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: ola.berg
+cn: Ola Berg
+sn: Berg
+givenName: Ola
+displayName: Ola Berg
+mail: ola.berg@skole.kommune.no
+eduPersonPrincipalName: ola.berg@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 02022050039
+
+dn: uid=kari.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: kari.kristiansen
+cn: Kari Kristiansen
+sn: Kristiansen
+givenName: Kari
+displayName: Kari Kristiansen
+mail: kari.kristiansen@skole.kommune.no
+eduPersonPrincipalName: kari.kristiansen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 03032050068
+
+dn: uid=per.andersen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: per.andersen
+cn: Per Andersen
+sn: Andersen
+givenName: Per
+displayName: Per Andersen
+mail: per.andersen@skole.kommune.no
+eduPersonPrincipalName: per.andersen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 04042050097
+
+dn: uid=bjorn.larsen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: bjorn.larsen
+cn: Bjørn Larsen
+sn: Larsen
+givenName: Bjørn
+displayName: Bjørn Larsen
+mail: bjorn.larsen@skole.kommune.no
+eduPersonPrincipalName: bjorn.larsen@skole.kommune.no
+eduPersonAffiliation: employee
+eduPersonAffiliation: faculty
+eduPersonPrimaryAffiliation: employee
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 03037200017
+userPassword: Laerer123!
+
+dn: uid=nora.johansen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: nora.johansen
+cn: Nora Johansen
+sn: Johansen
+givenName: Nora
+displayName: Nora Johansen
+mail: nora.johansen@skole.kommune.no
+eduPersonPrincipalName: nora.johansen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 05052050016
+
+dn: uid=liam.jensen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: liam.jensen
+cn: Liam Jensen
+sn: Jensen
+givenName: Liam
+displayName: Liam Jensen
+mail: liam.jensen@skole.kommune.no
+eduPersonPrincipalName: liam.jensen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 06062050045
+
+dn: uid=emma.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: emma.nilsen
+cn: Emma Nilsen
+sn: Nilsen
+givenName: Emma
+displayName: Emma Nilsen
+mail: emma.nilsen@skole.kommune.no
+eduPersonPrincipalName: emma.nilsen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 07072050074
+
+dn: uid=cecilie.andersen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: cecilie.andersen
+cn: Cecilie Andersen
+sn: Andersen
+givenName: Cecilie
+displayName: Cecilie Andersen
+mail: cecilie.andersen@skole.kommune.no
+eduPersonPrincipalName: cecilie.andersen@skole.kommune.no
+eduPersonAffiliation: employee
+eduPersonAffiliation: faculty
+eduPersonPrimaryAffiliation: employee
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 04047300067
+userPassword: Laerer123!
+
+dn: uid=noah.larsen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: noah.larsen
+cn: Noah Larsen
+sn: Larsen
+givenName: Noah
+displayName: Noah Larsen
+mail: noah.larsen@skole.kommune.no
+eduPersonPrincipalName: noah.larsen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 08081950033
+
+dn: uid=sofie.berg,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: sofie.berg
+cn: Sofie Berg
+sn: Berg
+givenName: Sofie
+displayName: Sofie Berg
+mail: sofie.berg@skole.kommune.no
+eduPersonPrincipalName: sofie.berg@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 09091950062
+
+dn: uid=jonas.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: jonas.kristiansen
+cn: Jonas Kristiansen
+sn: Kristiansen
+givenName: Jonas
+displayName: Jonas Kristiansen
+mail: jonas.kristiansen@skole.kommune.no
+eduPersonPrincipalName: jonas.kristiansen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 10101950110
+
+dn: uid=david.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: david.nilsen
+cn: David Nilsen
+sn: Nilsen
+givenName: David
+displayName: David Nilsen
+mail: david.nilsen@skole.kommune.no
+eduPersonPrincipalName: david.nilsen@skole.kommune.no
+eduPersonAffiliation: employee
+eduPersonAffiliation: faculty
+eduPersonPrimaryAffiliation: employee
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 05057400007
+userPassword: Laerer123!
+
+dn: uid=maja.andersen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: maja.andersen
+cn: Maja Andersen
+sn: Andersen
+givenName: Maja
+displayName: Maja Andersen
+mail: maja.andersen@skole.kommune.no
+eduPersonPrincipalName: maja.andersen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 11111950069
+
+dn: uid=aksel.johansen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: aksel.johansen
+cn: Aksel Johansen
+sn: Johansen
+givenName: Aksel
+displayName: Aksel Johansen
+mail: aksel.johansen@skole.kommune.no
+eduPersonPrincipalName: aksel.johansen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 12121950098
+
+dn: uid=ingrid.jensen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: ingrid.jensen
+cn: Ingrid Jensen
+sn: Jensen
+givenName: Ingrid
+displayName: Ingrid Jensen
+mail: ingrid.jensen@skole.kommune.no
+eduPersonPrincipalName: ingrid.jensen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 13011950099
+
+dn: uid=eva.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: eva.pedersen
+cn: Eva Pedersen
+sn: Pedersen
+givenName: Eva
+displayName: Eva Pedersen
+mail: eva.pedersen@skole.kommune.no
+eduPersonPrincipalName: eva.pedersen@skole.kommune.no
+eduPersonAffiliation: employee
+eduPersonAffiliation: faculty
+eduPersonPrimaryAffiliation: employee
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 06067500057
+userPassword: Laerer123!
+
+dn: uid=elias.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: elias.pedersen
+cn: Elias Pedersen
+sn: Pedersen
+givenName: Elias
+displayName: Elias Pedersen
+mail: elias.pedersen@skole.kommune.no
+eduPersonPrincipalName: elias.pedersen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 14021850188
+
+dn: uid=thea.larsen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: thea.larsen
+cn: Thea Larsen
+sn: Larsen
+givenName: Thea
+displayName: Thea Larsen
+mail: thea.larsen@skole.kommune.no
+eduPersonPrincipalName: thea.larsen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 15031850026
+
+dn: uid=filip.berg,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: filip.berg
+cn: Filip Berg
+sn: Berg
+givenName: Filip
+displayName: Filip Berg
+mail: filip.berg@skole.kommune.no
+eduPersonPrincipalName: filip.berg@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 16041850055
+
+dn: uid=frode.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: frode.kristiansen
+cn: Frode Kristiansen
+sn: Kristiansen
+givenName: Frode
+displayName: Frode Kristiansen
+mail: frode.kristiansen@skole.kommune.no
+eduPersonPrincipalName: frode.kristiansen@skole.kommune.no
+eduPersonAffiliation: employee
+eduPersonAffiliation: faculty
+eduPersonPrimaryAffiliation: employee
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 07077600188
+userPassword: Laerer123!
+
+dn: uid=sara.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: sara.kristiansen
+cn: Sara Kristiansen
+sn: Kristiansen
+givenName: Sara
+displayName: Sara Kristiansen
+mail: sara.kristiansen@skole.kommune.no
+eduPersonPrincipalName: sara.kristiansen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 17051850084
+
+dn: uid=ola.andersen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: ola.andersen
+cn: Ola Andersen
+sn: Andersen
+givenName: Ola
+displayName: Ola Andersen
+mail: ola.andersen@skole.kommune.no
+eduPersonPrincipalName: ola.andersen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 18061850003
+
+dn: uid=kari.johansen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: kari.johansen
+cn: Kari Johansen
+sn: Johansen
+givenName: Kari
+displayName: Kari Johansen
+mail: kari.johansen@skole.kommune.no
+eduPersonPrincipalName: kari.johansen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 19071850032
+
+dn: uid=grete.jensen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: grete.jensen
+cn: Grete Jensen
+sn: Jensen
+givenName: Grete
+displayName: Grete Jensen
+mail: grete.jensen@skole.kommune.no
+eduPersonPrincipalName: grete.jensen@skole.kommune.no
+eduPersonAffiliation: employee
+eduPersonAffiliation: faculty
+eduPersonPrimaryAffiliation: employee
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 08087700047
+userPassword: Laerer123!
+
+dn: uid=per.hansen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: per.hansen
+cn: Per Hansen
+sn: Hansen
+givenName: Per
+displayName: Per Hansen
+mail: per.hansen@skole.kommune.no
+eduPersonPrincipalName: per.hansen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 20081750050
+
+dn: uid=nora.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: nora.pedersen
+cn: Nora Pedersen
+sn: Pedersen
+givenName: Nora
+displayName: Nora Pedersen
+mail: nora.pedersen@skole.kommune.no
+eduPersonPrincipalName: nora.pedersen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 21091750160
+
+dn: uid=liam.larsen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: liam.larsen
+cn: Liam Larsen
+sn: Larsen
+givenName: Liam
+displayName: Liam Larsen
+mail: liam.larsen@skole.kommune.no
+eduPersonPrincipalName: liam.larsen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 22101750047
+
+dn: uid=henrik.hansen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: henrik.hansen
+cn: Henrik Hansen
+sn: Hansen
+givenName: Henrik
+displayName: Henrik Hansen
+mail: henrik.hansen@skole.kommune.no
+eduPersonPrincipalName: henrik.hansen@skole.kommune.no
+eduPersonAffiliation: employee
+eduPersonAffiliation: faculty
+eduPersonPrimaryAffiliation: employee
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 09097800097
+userPassword: Laerer123!
+
+dn: uid=emma.berg,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: emma.berg
+cn: Emma Berg
+sn: Berg
+givenName: Emma
+displayName: Emma Berg
+mail: emma.berg@skole.kommune.no
+eduPersonPrincipalName: emma.berg@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 23111750076
+
+dn: uid=noah.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: noah.kristiansen
+cn: Noah Kristiansen
+sn: Kristiansen
+givenName: Noah
+displayName: Noah Kristiansen
+mail: noah.kristiansen@skole.kommune.no
+eduPersonPrincipalName: noah.kristiansen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 24121750186
+
+dn: uid=sofie.andersen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: sofie.andersen
+cn: Sofie Andersen
+sn: Andersen
+givenName: Sofie
+displayName: Sofie Andersen
+mail: sofie.andersen@skole.kommune.no
+eduPersonPrincipalName: sofie.andersen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 25011750187
+
+dn: uid=ida.berg,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: ida.berg
+cn: Ida Berg
+sn: Berg
+givenName: Ida
+displayName: Ida Berg
+mail: ida.berg@skole.kommune.no
+eduPersonPrincipalName: ida.berg@skole.kommune.no
+eduPersonAffiliation: employee
+eduPersonAffiliation: faculty
+eduPersonPrimaryAffiliation: employee
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 10107900085
+userPassword: Laerer123!
+
+dn: uid=jonas.olsen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: jonas.olsen
+cn: Jonas Olsen
+sn: Olsen
+givenName: Jonas
+displayName: Jonas Olsen
+mail: jonas.olsen@skole.kommune.no
+eduPersonPrincipalName: jonas.olsen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 26021650004
+
+dn: uid=maja.hansen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: maja.hansen
+cn: Maja Hansen
+sn: Hansen
+givenName: Maja
+displayName: Maja Hansen
+mail: maja.hansen@skole.kommune.no
+eduPersonPrincipalName: maja.hansen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 27031650033
+
+dn: uid=aksel.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: aksel.pedersen
+cn: Aksel Pedersen
+sn: Pedersen
+givenName: Aksel
+displayName: Aksel Pedersen
+mail: aksel.pedersen@skole.kommune.no
+eduPersonPrincipalName: aksel.pedersen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 01041650067
+
+dn: uid=jan.johansen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: jan.johansen
+cn: Jan Johansen
+sn: Johansen
+givenName: Jan
+displayName: Jan Johansen
+mail: jan.johansen@skole.kommune.no
+eduPersonPrincipalName: jan.johansen@skole.kommune.no
+eduPersonAffiliation: employee
+eduPersonAffiliation: faculty
+eduPersonPrimaryAffiliation: employee
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 11118000074
+userPassword: Laerer123!
+
+dn: uid=ingrid.larsen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: ingrid.larsen
+cn: Ingrid Larsen
+sn: Larsen
+givenName: Ingrid
+displayName: Ingrid Larsen
+mail: ingrid.larsen@skole.kommune.no
+eduPersonPrincipalName: ingrid.larsen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 02051650096
+
+dn: uid=elias.berg,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: elias.berg
+cn: Elias Berg
+sn: Berg
+givenName: Elias
+displayName: Elias Berg
+mail: elias.berg@skole.kommune.no
+eduPersonPrincipalName: elias.berg@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 03061650015
+
+dn: uid=thea.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: thea.kristiansen
+cn: Thea Kristiansen
+sn: Kristiansen
+givenName: Thea
+displayName: Thea Kristiansen
+mail: thea.kristiansen@skole.kommune.no
+eduPersonPrincipalName: thea.kristiansen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 04071650044
+
+dn: uid=kristin.olsen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: kristin.olsen
+cn: Kristin Olsen
+sn: Olsen
+givenName: Kristin
+displayName: Kristin Olsen
+mail: kristin.olsen@skole.kommune.no
+eduPersonPrincipalName: kristin.olsen@skole.kommune.no
+eduPersonAffiliation: employee
+eduPersonAffiliation: faculty
+eduPersonPrimaryAffiliation: employee
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 12128100014
+userPassword: Laerer123!
+
+dn: uid=filip.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: filip.nilsen
+cn: Filip Nilsen
+sn: Nilsen
+givenName: Filip
+displayName: Filip Nilsen
+mail: filip.nilsen@skole.kommune.no
+eduPersonPrincipalName: filip.nilsen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 05081550052
+
+dn: uid=sara.olsen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: sara.olsen
+cn: Sara Olsen
+sn: Olsen
+givenName: Sara
+displayName: Sara Olsen
+mail: sara.olsen@skole.kommune.no
+eduPersonPrincipalName: sara.olsen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 06091550081
+
+dn: uid=ola.hansen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: ola.hansen
+cn: Ola Hansen
+sn: Hansen
+givenName: Ola
+displayName: Ola Hansen
+mail: ola.hansen@skole.kommune.no
+eduPersonPrincipalName: ola.hansen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 07101550049
+
+dn: uid=lars.larsen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: lars.larsen
+cn: Lars Larsen
+sn: Larsen
+givenName: Lars
+displayName: Lars Larsen
+mail: lars.larsen@skole.kommune.no
+eduPersonPrincipalName: lars.larsen@skole.kommune.no
+eduPersonAffiliation: employee
+eduPersonAffiliation: faculty
+eduPersonPrimaryAffiliation: employee
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 13018200036
+userPassword: Laerer123!
+
+dn: uid=kari.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: kari.pedersen
+cn: Kari Pedersen
+sn: Pedersen
+givenName: Kari
+displayName: Kari Pedersen
+mail: kari.pedersen@skole.kommune.no
+eduPersonPrincipalName: kari.pedersen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 08111550078
+
+dn: uid=per.larsen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: per.larsen
+cn: Per Larsen
+sn: Larsen
+givenName: Per
+displayName: Per Larsen
+mail: per.larsen@skole.kommune.no
+eduPersonPrincipalName: per.larsen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 09121550188
+
+dn: uid=nora.berg,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: nora.berg
+cn: Nora Berg
+sn: Berg
+givenName: Nora
+displayName: Nora Berg
+mail: nora.berg@skole.kommune.no
+eduPersonPrincipalName: nora.berg@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 10011550008
+
+dn: uid=mona.andersen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: mona.andersen
+cn: Mona Andersen
+sn: Andersen
+givenName: Mona
+displayName: Mona Andersen
+mail: mona.andersen@skole.kommune.no
+eduPersonPrincipalName: mona.andersen@skole.kommune.no
+eduPersonAffiliation: employee
+eduPersonAffiliation: faculty
+eduPersonPrimaryAffiliation: employee
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 14028300086
+userPassword: Laerer123!
+
+dn: uid=liam.jensen2,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: liam.jensen2
+cn: Liam Jensen
+sn: Jensen
+givenName: Liam
+displayName: Liam Jensen
+mail: liam.jensen2@skole.kommune.no
+eduPersonPrincipalName: liam.jensen2@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 11021450016
+
+dn: uid=emma.nilsen2,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: emma.nilsen2
+cn: Emma Nilsen
+sn: Nilsen
+givenName: Emma
+displayName: Emma Nilsen
+mail: emma.nilsen2@skole.kommune.no
+eduPersonPrincipalName: emma.nilsen2@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 12031450045
+
+dn: uid=noah.olsen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: noah.olsen
+cn: Noah Olsen
+sn: Olsen
+givenName: Noah
+displayName: Noah Olsen
+mail: noah.olsen@skole.kommune.no
+eduPersonPrincipalName: noah.olsen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 13041450074
+
+dn: uid=nils.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: nils.nilsen
+cn: Nils Nilsen
+sn: Nilsen
+givenName: Nils
+displayName: Nils Nilsen
+mail: nils.nilsen@skole.kommune.no
+eduPersonPrincipalName: nils.nilsen@skole.kommune.no
+eduPersonAffiliation: employee
+eduPersonAffiliation: faculty
+eduPersonPrimaryAffiliation: employee
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 15038400026
+userPassword: Laerer123!
+
+dn: uid=sofie.hansen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: sofie.hansen
+cn: Sofie Hansen
+sn: Hansen
+givenName: Sofie
+displayName: Sofie Hansen
+mail: sofie.hansen@skole.kommune.no
+eduPersonPrincipalName: sofie.hansen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 14051450184
+
+dn: uid=jonas.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: jonas.pedersen
+cn: Jonas Pedersen
+sn: Pedersen
+givenName: Jonas
+displayName: Jonas Pedersen
+mail: jonas.pedersen@skole.kommune.no
+eduPersonPrincipalName: jonas.pedersen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 15061450022
+
+dn: uid=maja.larsen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: maja.larsen
+cn: Maja Larsen
+sn: Larsen
+givenName: Maja
+displayName: Maja Larsen
+mail: maja.larsen@skole.kommune.no
+eduPersonPrincipalName: maja.larsen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 16071450051
+
+dn: uid=oda.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: oda.pedersen
+cn: Oda Pedersen
+sn: Pedersen
+givenName: Oda
+displayName: Oda Pedersen
+mail: oda.pedersen@skole.kommune.no
+eduPersonPrincipalName: oda.pedersen@skole.kommune.no
+eduPersonAffiliation: employee
+eduPersonAffiliation: faculty
+eduPersonPrimaryAffiliation: employee
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 16048500076
+userPassword: Laerer123!
+
+dn: uid=aksel.johansen2,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: aksel.johansen2
+cn: Aksel Johansen
+sn: Johansen
+givenName: Aksel
+displayName: Aksel Johansen
+mail: aksel.johansen2@skole.kommune.no
+eduPersonPrincipalName: aksel.johansen2@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 17081350140
+
+dn: uid=ingrid.jensen2,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: ingrid.jensen2
+cn: Ingrid Jensen
+sn: Jensen
+givenName: Ingrid
+displayName: Ingrid Jensen
+mail: ingrid.jensen2@skole.kommune.no
+eduPersonPrincipalName: ingrid.jensen2@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 18091350099
+
+dn: uid=elias.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: elias.nilsen
+cn: Elias Nilsen
+sn: Nilsen
+givenName: Elias
+displayName: Elias Nilsen
+mail: elias.nilsen@skole.kommune.no
+eduPersonPrincipalName: elias.nilsen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 19101350056
+
+dn: uid=paal.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: paal.kristiansen
+cn: Pål Kristiansen
+sn: Kristiansen
+givenName: Pål
+displayName: Pål Kristiansen
+mail: paal.kristiansen@skole.kommune.no
+eduPersonPrincipalName: paal.kristiansen@skole.kommune.no
+eduPersonAffiliation: employee
+eduPersonAffiliation: faculty
+eduPersonPrimaryAffiliation: employee
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 17058600016
+userPassword: Laerer123!
+
+dn: uid=thea.olsen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: thea.olsen
+cn: Thea Olsen
+sn: Olsen
+givenName: Thea
+displayName: Thea Olsen
+mail: thea.olsen@skole.kommune.no
+eduPersonPrincipalName: thea.olsen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 20111350095
+
+dn: uid=filip.hansen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: filip.hansen
+cn: Filip Hansen
+sn: Hansen
+givenName: Filip
+displayName: Filip Hansen
+mail: filip.hansen@skole.kommune.no
+eduPersonPrincipalName: filip.hansen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 21121350014
+
+dn: uid=sara.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: sara.pedersen
+cn: Sara Pedersen
+sn: Pedersen
+givenName: Sara
+displayName: Sara Pedersen
+mail: sara.pedersen@skole.kommune.no
+eduPersonPrincipalName: sara.pedersen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 22011350015
+
+dn: uid=randi.jensen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: randi.jensen
+cn: Randi Jensen
+sn: Jensen
+givenName: Randi
+displayName: Randi Jensen
+mail: randi.jensen@skole.kommune.no
+eduPersonPrincipalName: randi.jensen@skole.kommune.no
+eduPersonAffiliation: employee
+eduPersonAffiliation: faculty
+eduPersonPrimaryAffiliation: employee
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 18068700066
+userPassword: Laerer123!
+
+dn: uid=ola.andersen2,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: ola.andersen2
+cn: Ola Andersen
+sn: Andersen
+givenName: Ola
+displayName: Ola Andersen
+mail: ola.andersen2@skole.kommune.no
+eduPersonPrincipalName: ola.andersen2@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 23021250023
+
+dn: uid=kari.johansen2,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: kari.johansen2
+cn: Kari Johansen
+sn: Johansen
+givenName: Kari
+displayName: Kari Johansen
+mail: kari.johansen2@skole.kommune.no
+eduPersonPrincipalName: kari.johansen2@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 24031250052
+
+dn: uid=per.jensen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: per.jensen
+cn: Per Jensen
+sn: Jensen
+givenName: Per
+displayName: Per Jensen
+mail: per.jensen@skole.kommune.no
+eduPersonPrincipalName: per.jensen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 25041250081
+
+dn: uid=stein.hansen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: stein.hansen
+cn: Stein Hansen
+sn: Hansen
+givenName: Stein
+displayName: Stein Hansen
+mail: stein.hansen@skole.kommune.no
+eduPersonPrincipalName: stein.hansen@skole.kommune.no
+eduPersonAffiliation: employee
+eduPersonAffiliation: faculty
+eduPersonPrimaryAffiliation: employee
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 19078800006
+userPassword: Laerer123!
+
+dn: uid=nora.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: nora.nilsen
+cn: Nora Nilsen
+sn: Nilsen
+givenName: Nora
+displayName: Nora Nilsen
+mail: nora.nilsen@skole.kommune.no
+eduPersonPrincipalName: nora.nilsen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 26051250000
+
+dn: uid=liam.olsen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: liam.olsen
+cn: Liam Olsen
+sn: Olsen
+givenName: Liam
+displayName: Liam Olsen
+mail: liam.olsen@skole.kommune.no
+eduPersonPrincipalName: liam.olsen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 27061250110
+
+dn: uid=emma.hansen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: emma.hansen
+cn: Emma Hansen
+sn: Hansen
+givenName: Emma
+displayName: Emma Hansen
+mail: emma.hansen@skole.kommune.no
+eduPersonPrincipalName: emma.hansen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 01071250063
+
+dn: uid=tone.berg,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: tone.berg
+cn: Tone Berg
+sn: Berg
+givenName: Tone
+displayName: Tone Berg
+mail: tone.berg@skole.kommune.no
+eduPersonPrincipalName: tone.berg@skole.kommune.no
+eduPersonAffiliation: employee
+eduPersonAffiliation: faculty
+eduPersonPrimaryAffiliation: employee
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 20088900066
+userPassword: Laerer123!
+
+dn: uid=noah.kristiansen2,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: noah.kristiansen2
+cn: Noah Kristiansen
+sn: Kristiansen
+givenName: Noah
+displayName: Noah Kristiansen
+mail: noah.kristiansen2@skole.kommune.no
+eduPersonPrincipalName: noah.kristiansen2@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 02081150071
+
+dn: uid=sofie.andersen2,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: sofie.andersen2
+cn: Sofie Andersen
+sn: Andersen
+givenName: Sofie
+displayName: Sofie Andersen
+mail: sofie.andersen2@skole.kommune.no
+eduPersonPrincipalName: sofie.andersen2@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 03091150181
+
+dn: uid=jonas.johansen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: jonas.johansen
+cn: Jonas Johansen
+sn: Johansen
+givenName: Jonas
+displayName: Jonas Johansen
+mail: jonas.johansen@skole.kommune.no
+eduPersonPrincipalName: jonas.johansen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 04101150068
+
+dn: uid=ulf.johansen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: ulf.johansen
+cn: Ulf Johansen
+sn: Johansen
+givenName: Ulf
+displayName: Ulf Johansen
+mail: ulf.johansen@skole.kommune.no
+eduPersonPrincipalName: ulf.johansen@skole.kommune.no
+eduPersonAffiliation: employee
+eduPersonAffiliation: faculty
+eduPersonPrimaryAffiliation: employee
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 21099000055
+userPassword: Laerer123!
+
+dn: uid=maja.jensen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: maja.jensen
+cn: Maja Jensen
+sn: Jensen
+givenName: Maja
+displayName: Maja Jensen
+mail: maja.jensen@skole.kommune.no
+eduPersonPrincipalName: maja.jensen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 05111150097
+
+dn: uid=aksel.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: aksel.nilsen
+cn: Aksel Nilsen
+sn: Nilsen
+givenName: Aksel
+displayName: Aksel Nilsen
+mail: aksel.nilsen@skole.kommune.no
+eduPersonPrincipalName: aksel.nilsen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 06121150016
+
+dn: uid=ingrid.olsen,ou=people,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: feidePerson
+uid: ingrid.olsen
+cn: Ingrid Olsen
+sn: Olsen
+givenName: Ingrid
+displayName: Ingrid Olsen
+mail: ingrid.olsen@skole.kommune.no
+eduPersonPrincipalName: ingrid.olsen@skole.kommune.no
+eduPersonAffiliation: student
+eduPersonPrimaryAffiliation: student
+schacHomeOrganization: skole.kommune.no
+norEduPersonNIN: 07011150017
+
+dn: cn=skole-alle-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: skole-alle-2025
+displayName: Hele skolen
+goType: skole
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=admin.skole,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=anne.olsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ola.berg,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=kari.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=per.andersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=bjorn.larsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=nora.johansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=liam.jensen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=emma.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=cecilie.andersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=noah.larsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sofie.berg,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=jonas.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=david.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=maja.andersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=aksel.johansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ingrid.jensen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=eva.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=elias.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=thea.larsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=filip.berg,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=frode.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sara.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ola.andersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=kari.johansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=grete.jensen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=per.hansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=nora.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=liam.larsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=henrik.hansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=emma.berg,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=noah.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sofie.andersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ida.berg,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=jonas.olsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=maja.hansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=aksel.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=jan.johansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ingrid.larsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=elias.berg,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=thea.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=kristin.olsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=filip.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sara.olsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ola.hansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=lars.larsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=kari.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=per.larsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=nora.berg,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=mona.andersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=liam.jensen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=emma.nilsen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=noah.olsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=nils.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sofie.hansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=jonas.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=maja.larsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=oda.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=aksel.johansen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ingrid.jensen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=elias.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=paal.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=thea.olsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=filip.hansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sara.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=randi.jensen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ola.andersen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=kari.johansen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=per.jensen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=stein.hansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=nora.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=liam.olsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=emma.hansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=tone.berg,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=noah.kristiansen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sofie.andersen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=jonas.johansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ulf.johansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=maja.jensen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=aksel.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ingrid.olsen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=basis-1A-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: basis-1A-2025
+displayName: 1A
+goType: basis
+goGrade: 1
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=anne.olsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ola.berg,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=kari.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=per.andersen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=basis-1B-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: basis-1B-2025
+displayName: 1B
+goType: basis
+goGrade: 1
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=bjorn.larsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=nora.johansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=liam.jensen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=emma.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=basis-2A-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: basis-2A-2025
+displayName: 2A
+goType: basis
+goGrade: 2
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=cecilie.andersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=noah.larsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sofie.berg,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=jonas.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=basis-2B-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: basis-2B-2025
+displayName: 2B
+goType: basis
+goGrade: 2
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=david.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=maja.andersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=aksel.johansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ingrid.jensen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=basis-3A-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: basis-3A-2025
+displayName: 3A
+goType: basis
+goGrade: 3
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=eva.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=elias.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=thea.larsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=filip.berg,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=basis-3B-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: basis-3B-2025
+displayName: 3B
+goType: basis
+goGrade: 3
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=frode.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sara.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ola.andersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=kari.johansen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=basis-4A-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: basis-4A-2025
+displayName: 4A
+goType: basis
+goGrade: 4
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=grete.jensen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=per.hansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=nora.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=liam.larsen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=basis-4B-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: basis-4B-2025
+displayName: 4B
+goType: basis
+goGrade: 4
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=henrik.hansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=emma.berg,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=noah.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sofie.andersen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=basis-5A-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: basis-5A-2025
+displayName: 5A
+goType: basis
+goGrade: 5
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=ida.berg,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=jonas.olsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=maja.hansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=aksel.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=basis-5B-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: basis-5B-2025
+displayName: 5B
+goType: basis
+goGrade: 5
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=jan.johansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ingrid.larsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=elias.berg,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=thea.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=basis-6A-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: basis-6A-2025
+displayName: 6A
+goType: basis
+goGrade: 6
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=kristin.olsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=filip.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sara.olsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ola.hansen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=basis-6B-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: basis-6B-2025
+displayName: 6B
+goType: basis
+goGrade: 6
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=lars.larsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=kari.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=per.larsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=nora.berg,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=basis-7A-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: basis-7A-2025
+displayName: 7A
+goType: basis
+goGrade: 7
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=mona.andersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=liam.jensen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=emma.nilsen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=noah.olsen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=basis-7B-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: basis-7B-2025
+displayName: 7B
+goType: basis
+goGrade: 7
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=nils.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sofie.hansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=jonas.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=maja.larsen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=basis-8A-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: basis-8A-2025
+displayName: 8A
+goType: basis
+goGrade: 8
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=oda.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=aksel.johansen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ingrid.jensen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=elias.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=basis-8B-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: basis-8B-2025
+displayName: 8B
+goType: basis
+goGrade: 8
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=paal.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=thea.olsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=filip.hansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sara.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=basis-9A-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: basis-9A-2025
+displayName: 9A
+goType: basis
+goGrade: 9
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=randi.jensen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ola.andersen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=kari.johansen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=per.jensen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=basis-9B-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: basis-9B-2025
+displayName: 9B
+goType: basis
+goGrade: 9
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=stein.hansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=nora.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=liam.olsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=emma.hansen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=basis-10A-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: basis-10A-2025
+displayName: 10A
+goType: basis
+goGrade: 10
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=tone.berg,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=noah.kristiansen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sofie.andersen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=jonas.johansen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=basis-10B-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: basis-10B-2025
+displayName: 10B
+goType: basis
+goGrade: 10
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=ulf.johansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=maja.jensen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=aksel.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ingrid.olsen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=trinn-1-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: trinn-1-2025
+displayName: 1. trinn
+goType: trinn
+goGrade: 1
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=ola.berg,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=kari.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=per.andersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=nora.johansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=liam.jensen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=emma.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=trinn-2-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: trinn-2-2025
+displayName: 2. trinn
+goType: trinn
+goGrade: 2
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=noah.larsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sofie.berg,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=jonas.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=maja.andersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=aksel.johansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ingrid.jensen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=trinn-3-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: trinn-3-2025
+displayName: 3. trinn
+goType: trinn
+goGrade: 3
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=elias.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=thea.larsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=filip.berg,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sara.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ola.andersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=kari.johansen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=trinn-4-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: trinn-4-2025
+displayName: 4. trinn
+goType: trinn
+goGrade: 4
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=per.hansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=nora.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=liam.larsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=emma.berg,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=noah.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sofie.andersen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=trinn-5-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: trinn-5-2025
+displayName: 5. trinn
+goType: trinn
+goGrade: 5
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=jonas.olsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=maja.hansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=aksel.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ingrid.larsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=elias.berg,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=thea.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=trinn-6-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: trinn-6-2025
+displayName: 6. trinn
+goType: trinn
+goGrade: 6
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=filip.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sara.olsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ola.hansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=kari.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=per.larsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=nora.berg,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=trinn-7-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: trinn-7-2025
+displayName: 7. trinn
+goType: trinn
+goGrade: 7
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=liam.jensen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=emma.nilsen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=noah.olsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sofie.hansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=jonas.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=maja.larsen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=trinn-8-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: trinn-8-2025
+displayName: 8. trinn
+goType: trinn
+goGrade: 8
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=aksel.johansen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ingrid.jensen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=elias.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=thea.olsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=filip.hansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sara.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=trinn-9-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: trinn-9-2025
+displayName: 9. trinn
+goType: trinn
+goGrade: 9
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=ola.andersen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=kari.johansen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=per.jensen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=nora.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=liam.olsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=emma.hansen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=trinn-10-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: trinn-10-2025
+displayName: 10. trinn
+goType: trinn
+goGrade: 10
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=noah.kristiansen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sofie.andersen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=jonas.johansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=maja.jensen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=aksel.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ingrid.olsen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-norsk-1A-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-norsk-1A-2025
+displayName: Norsk 1A
+goType: undervisning
+goGrep: NOR01-06
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=anne.olsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ola.berg,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=kari.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=per.andersen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-matematikk-1A-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-matematikk-1A-2025
+displayName: Matematikk 1A
+goType: undervisning
+goGrep: MAT01-05
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=anne.olsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ola.berg,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=kari.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=per.andersen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-engelsk-1A-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-engelsk-1A-2025
+displayName: Engelsk 1A
+goType: undervisning
+goGrep: ENG01-04
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=anne.olsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ola.berg,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=kari.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=per.andersen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-norsk-1B-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-norsk-1B-2025
+displayName: Norsk 1B
+goType: undervisning
+goGrep: NOR01-06
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=bjorn.larsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=nora.johansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=liam.jensen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=emma.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-matematikk-1B-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-matematikk-1B-2025
+displayName: Matematikk 1B
+goType: undervisning
+goGrep: MAT01-05
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=bjorn.larsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=nora.johansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=liam.jensen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=emma.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-engelsk-1B-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-engelsk-1B-2025
+displayName: Engelsk 1B
+goType: undervisning
+goGrep: ENG01-04
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=bjorn.larsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=nora.johansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=liam.jensen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=emma.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-norsk-2A-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-norsk-2A-2025
+displayName: Norsk 2A
+goType: undervisning
+goGrep: NOR01-06
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=cecilie.andersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=noah.larsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sofie.berg,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=jonas.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-matematikk-2A-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-matematikk-2A-2025
+displayName: Matematikk 2A
+goType: undervisning
+goGrep: MAT01-05
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=cecilie.andersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=noah.larsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sofie.berg,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=jonas.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-engelsk-2A-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-engelsk-2A-2025
+displayName: Engelsk 2A
+goType: undervisning
+goGrep: ENG01-04
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=cecilie.andersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=noah.larsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sofie.berg,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=jonas.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-norsk-2B-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-norsk-2B-2025
+displayName: Norsk 2B
+goType: undervisning
+goGrep: NOR01-06
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=david.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=maja.andersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=aksel.johansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ingrid.jensen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-matematikk-2B-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-matematikk-2B-2025
+displayName: Matematikk 2B
+goType: undervisning
+goGrep: MAT01-05
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=david.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=maja.andersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=aksel.johansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ingrid.jensen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-engelsk-2B-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-engelsk-2B-2025
+displayName: Engelsk 2B
+goType: undervisning
+goGrep: ENG01-04
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=david.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=maja.andersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=aksel.johansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ingrid.jensen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-norsk-3A-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-norsk-3A-2025
+displayName: Norsk 3A
+goType: undervisning
+goGrep: NOR01-06
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=eva.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=elias.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=thea.larsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=filip.berg,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-matematikk-3A-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-matematikk-3A-2025
+displayName: Matematikk 3A
+goType: undervisning
+goGrep: MAT01-05
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=eva.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=elias.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=thea.larsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=filip.berg,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-engelsk-3A-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-engelsk-3A-2025
+displayName: Engelsk 3A
+goType: undervisning
+goGrep: ENG01-04
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=eva.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=elias.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=thea.larsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=filip.berg,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-norsk-3B-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-norsk-3B-2025
+displayName: Norsk 3B
+goType: undervisning
+goGrep: NOR01-06
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=frode.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sara.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ola.andersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=kari.johansen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-matematikk-3B-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-matematikk-3B-2025
+displayName: Matematikk 3B
+goType: undervisning
+goGrep: MAT01-05
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=frode.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sara.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ola.andersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=kari.johansen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-engelsk-3B-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-engelsk-3B-2025
+displayName: Engelsk 3B
+goType: undervisning
+goGrep: ENG01-04
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=frode.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sara.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ola.andersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=kari.johansen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-norsk-4A-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-norsk-4A-2025
+displayName: Norsk 4A
+goType: undervisning
+goGrep: NOR01-06
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=grete.jensen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=per.hansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=nora.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=liam.larsen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-matematikk-4A-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-matematikk-4A-2025
+displayName: Matematikk 4A
+goType: undervisning
+goGrep: MAT01-05
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=grete.jensen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=per.hansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=nora.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=liam.larsen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-engelsk-4A-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-engelsk-4A-2025
+displayName: Engelsk 4A
+goType: undervisning
+goGrep: ENG01-04
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=grete.jensen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=per.hansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=nora.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=liam.larsen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-norsk-4B-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-norsk-4B-2025
+displayName: Norsk 4B
+goType: undervisning
+goGrep: NOR01-06
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=henrik.hansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=emma.berg,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=noah.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sofie.andersen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-matematikk-4B-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-matematikk-4B-2025
+displayName: Matematikk 4B
+goType: undervisning
+goGrep: MAT01-05
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=henrik.hansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=emma.berg,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=noah.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sofie.andersen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-engelsk-4B-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-engelsk-4B-2025
+displayName: Engelsk 4B
+goType: undervisning
+goGrep: ENG01-04
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=henrik.hansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=emma.berg,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=noah.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sofie.andersen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-norsk-5A-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-norsk-5A-2025
+displayName: Norsk 5A
+goType: undervisning
+goGrep: NOR01-06
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=ida.berg,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=jonas.olsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=maja.hansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=aksel.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-matematikk-5A-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-matematikk-5A-2025
+displayName: Matematikk 5A
+goType: undervisning
+goGrep: MAT01-05
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=ida.berg,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=jonas.olsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=maja.hansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=aksel.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-engelsk-5A-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-engelsk-5A-2025
+displayName: Engelsk 5A
+goType: undervisning
+goGrep: ENG01-04
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=ida.berg,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=jonas.olsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=maja.hansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=aksel.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-norsk-5B-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-norsk-5B-2025
+displayName: Norsk 5B
+goType: undervisning
+goGrep: NOR01-06
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=jan.johansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ingrid.larsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=elias.berg,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=thea.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-matematikk-5B-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-matematikk-5B-2025
+displayName: Matematikk 5B
+goType: undervisning
+goGrep: MAT01-05
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=jan.johansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ingrid.larsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=elias.berg,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=thea.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-engelsk-5B-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-engelsk-5B-2025
+displayName: Engelsk 5B
+goType: undervisning
+goGrep: ENG01-04
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=jan.johansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ingrid.larsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=elias.berg,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=thea.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-norsk-6A-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-norsk-6A-2025
+displayName: Norsk 6A
+goType: undervisning
+goGrep: NOR01-06
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=kristin.olsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=filip.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sara.olsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ola.hansen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-matematikk-6A-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-matematikk-6A-2025
+displayName: Matematikk 6A
+goType: undervisning
+goGrep: MAT01-05
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=kristin.olsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=filip.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sara.olsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ola.hansen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-engelsk-6A-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-engelsk-6A-2025
+displayName: Engelsk 6A
+goType: undervisning
+goGrep: ENG01-04
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=kristin.olsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=filip.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sara.olsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ola.hansen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-norsk-6B-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-norsk-6B-2025
+displayName: Norsk 6B
+goType: undervisning
+goGrep: NOR01-06
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=lars.larsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=kari.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=per.larsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=nora.berg,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-matematikk-6B-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-matematikk-6B-2025
+displayName: Matematikk 6B
+goType: undervisning
+goGrep: MAT01-05
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=lars.larsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=kari.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=per.larsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=nora.berg,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-engelsk-6B-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-engelsk-6B-2025
+displayName: Engelsk 6B
+goType: undervisning
+goGrep: ENG01-04
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=lars.larsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=kari.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=per.larsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=nora.berg,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-norsk-7A-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-norsk-7A-2025
+displayName: Norsk 7A
+goType: undervisning
+goGrep: NOR01-06
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=mona.andersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=liam.jensen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=emma.nilsen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=noah.olsen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-matematikk-7A-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-matematikk-7A-2025
+displayName: Matematikk 7A
+goType: undervisning
+goGrep: MAT01-05
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=mona.andersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=liam.jensen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=emma.nilsen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=noah.olsen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-engelsk-7A-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-engelsk-7A-2025
+displayName: Engelsk 7A
+goType: undervisning
+goGrep: ENG01-04
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=mona.andersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=liam.jensen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=emma.nilsen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=noah.olsen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-norsk-7B-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-norsk-7B-2025
+displayName: Norsk 7B
+goType: undervisning
+goGrep: NOR01-06
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=nils.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sofie.hansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=jonas.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=maja.larsen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-matematikk-7B-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-matematikk-7B-2025
+displayName: Matematikk 7B
+goType: undervisning
+goGrep: MAT01-05
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=nils.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sofie.hansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=jonas.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=maja.larsen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-engelsk-7B-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-engelsk-7B-2025
+displayName: Engelsk 7B
+goType: undervisning
+goGrep: ENG01-04
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=nils.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sofie.hansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=jonas.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=maja.larsen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-norsk-8A-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-norsk-8A-2025
+displayName: Norsk 8A
+goType: undervisning
+goGrep: NOR01-06
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=oda.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=aksel.johansen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ingrid.jensen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=elias.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-matematikk-8A-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-matematikk-8A-2025
+displayName: Matematikk 8A
+goType: undervisning
+goGrep: MAT01-05
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=oda.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=aksel.johansen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ingrid.jensen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=elias.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-engelsk-8A-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-engelsk-8A-2025
+displayName: Engelsk 8A
+goType: undervisning
+goGrep: ENG01-04
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=oda.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=aksel.johansen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ingrid.jensen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=elias.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-norsk-8B-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-norsk-8B-2025
+displayName: Norsk 8B
+goType: undervisning
+goGrep: NOR01-06
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=paal.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=thea.olsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=filip.hansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sara.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-matematikk-8B-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-matematikk-8B-2025
+displayName: Matematikk 8B
+goType: undervisning
+goGrep: MAT01-05
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=paal.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=thea.olsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=filip.hansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sara.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-engelsk-8B-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-engelsk-8B-2025
+displayName: Engelsk 8B
+goType: undervisning
+goGrep: ENG01-04
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=paal.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=thea.olsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=filip.hansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sara.pedersen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-norsk-9A-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-norsk-9A-2025
+displayName: Norsk 9A
+goType: undervisning
+goGrep: NOR01-06
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=randi.jensen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ola.andersen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=kari.johansen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=per.jensen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-matematikk-9A-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-matematikk-9A-2025
+displayName: Matematikk 9A
+goType: undervisning
+goGrep: MAT01-05
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=randi.jensen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ola.andersen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=kari.johansen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=per.jensen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-engelsk-9A-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-engelsk-9A-2025
+displayName: Engelsk 9A
+goType: undervisning
+goGrep: ENG01-04
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=randi.jensen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ola.andersen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=kari.johansen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=per.jensen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-norsk-9B-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-norsk-9B-2025
+displayName: Norsk 9B
+goType: undervisning
+goGrep: NOR01-06
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=stein.hansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=nora.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=liam.olsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=emma.hansen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-matematikk-9B-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-matematikk-9B-2025
+displayName: Matematikk 9B
+goType: undervisning
+goGrep: MAT01-05
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=stein.hansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=nora.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=liam.olsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=emma.hansen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-engelsk-9B-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-engelsk-9B-2025
+displayName: Engelsk 9B
+goType: undervisning
+goGrep: ENG01-04
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=stein.hansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=nora.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=liam.olsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=emma.hansen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-norsk-10A-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-norsk-10A-2025
+displayName: Norsk 10A
+goType: undervisning
+goGrep: NOR01-06
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=tone.berg,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=noah.kristiansen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sofie.andersen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=jonas.johansen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-matematikk-10A-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-matematikk-10A-2025
+displayName: Matematikk 10A
+goType: undervisning
+goGrep: MAT01-05
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=tone.berg,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=noah.kristiansen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sofie.andersen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=jonas.johansen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-engelsk-10A-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-engelsk-10A-2025
+displayName: Engelsk 10A
+goType: undervisning
+goGrep: ENG01-04
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=tone.berg,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=noah.kristiansen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sofie.andersen2,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=jonas.johansen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-norsk-10B-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-norsk-10B-2025
+displayName: Norsk 10B
+goType: undervisning
+goGrep: NOR01-06
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=ulf.johansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=maja.jensen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=aksel.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ingrid.olsen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-matematikk-10B-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-matematikk-10B-2025
+displayName: Matematikk 10B
+goType: undervisning
+goGrep: MAT01-05
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=ulf.johansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=maja.jensen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=aksel.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ingrid.olsen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=und-engelsk-10B-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: und-engelsk-10B-2025
+displayName: Engelsk 10B
+goType: undervisning
+goGrep: ENG01-04
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=ulf.johansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=maja.jensen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=aksel.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=ingrid.olsen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=andre-leksehjelp-2025,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: top
+objectClass: gogroup
+cn: andre-leksehjelp-2025
+displayName: Leksehjelp
+description: Frivillig leksehjelp etter skoletid
+goType: andre
+goSchoolYear: 2025/2026
+schacHomeOrganization: skole.kommune.no
+member: uid=ola.berg,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=kari.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=per.andersen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=nora.johansen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=liam.jensen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=emma.nilsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=noah.larsen,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=sofie.berg,ou=people,dc=skole,dc=kommune,dc=no
+member: uid=jonas.kristiansen,ou=people,dc=skole,dc=kommune,dc=no
+
+dn: cn=feide-admins,ou=groups,dc=skole,dc=kommune,dc=no
+objectClass: groupOfNames
+cn: feide-admins
+description: Administratorer av Feide-katalogportalen
+member: uid=admin.skole,ou=people,dc=skole,dc=kommune,dc=no
+

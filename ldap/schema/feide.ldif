@@ -1,0 +1,27 @@
+# Feide-skjema for info_go (grunnskole) – lastes inn i cn=config.
+#
+# Attributtene eduPerson*/norEduPerson*/schac* bruker de offisielle, kjente
+# OID-ene fra eduPerson- (1.3.6.1.4.1.5923.1.1), norEdu- (1.3.6.1.4.1.2428.90.1)
+# og SCHAC-spesifikasjonene (1.3.6.1.4.1.25178.1.2). go*-attributtene og
+# objektklassene bruker en privat OID-arc (1.3.6.1.4.1.99999) for denne
+# testkatalogen. cn/sn/givenName/displayName/mail/uid/mobile/member m.fl.
+# kommer fra core/cosine/inetorgperson som lastes separat.
+dn: cn=feide,cn=schema,cn=config
+objectClass: olcSchemaConfig
+cn: feide
+olcAttributeTypes: ( 1.3.6.1.4.1.5923.1.1.1.6 NAME 'eduPersonPrincipalName' DESC 'eduPerson per Internet2/REFEDS' EQUALITY caseIgnoreMatch SUBSTR caseIgnoreSubstringsMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 SINGLE-VALUE )
+olcAttributeTypes: ( 1.3.6.1.4.1.5923.1.1.1.1 NAME 'eduPersonAffiliation' EQUALITY caseIgnoreMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 )
+olcAttributeTypes: ( 1.3.6.1.4.1.5923.1.1.1.5 NAME 'eduPersonPrimaryAffiliation' EQUALITY caseIgnoreMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 SINGLE-VALUE )
+olcAttributeTypes: ( 1.3.6.1.4.1.5923.1.1.1.7 NAME 'eduPersonEntitlement' EQUALITY caseExactMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 )
+olcAttributeTypes: ( 1.3.6.1.4.1.5923.1.1.1.3 NAME 'eduPersonOrgDN' SYNTAX 1.3.6.1.4.1.1466.115.121.1.12 SINGLE-VALUE )
+olcAttributeTypes: ( 1.3.6.1.4.1.5923.1.1.1.4 NAME 'eduPersonOrgUnitDN' SYNTAX 1.3.6.1.4.1.1466.115.121.1.12 )
+olcAttributeTypes: ( 1.3.6.1.4.1.2428.90.1.5 NAME 'norEduPersonNIN' DESC 'Norsk fodselsnummer/D-nummer' EQUALITY caseIgnoreMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 SINGLE-VALUE )
+olcAttributeTypes: ( 1.3.6.1.4.1.2428.90.1.3 NAME 'norEduPersonBirthDate' DESC 'YYYYMMDD' EQUALITY caseIgnoreMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 SINGLE-VALUE )
+olcAttributeTypes: ( 1.3.6.1.4.1.25178.1.2.9 NAME 'schacHomeOrganization' EQUALITY caseIgnoreMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 SINGLE-VALUE )
+olcAttributeTypes: ( 1.3.6.1.4.1.25178.1.2.15 NAME 'schacPersonalUniqueID' EQUALITY caseIgnoreMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 )
+olcAttributeTypes: ( 1.3.6.1.4.1.99999.1.1 NAME 'goType' DESC 'Feide info_go gruppetype' EQUALITY caseIgnoreMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 SINGLE-VALUE )
+olcAttributeTypes: ( 1.3.6.1.4.1.99999.1.2 NAME 'goGrep' DESC 'GREP fagkode' EQUALITY caseIgnoreMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 )
+olcAttributeTypes: ( 1.3.6.1.4.1.99999.1.3 NAME 'goGrade' DESC 'Aarstrinn 1-13' EQUALITY integerMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.27 SINGLE-VALUE )
+olcAttributeTypes: ( 1.3.6.1.4.1.99999.1.4 NAME 'goSchoolYear' DESC 'Skolear YYYY/YYYY' EQUALITY caseIgnoreMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 SINGLE-VALUE )
+olcObjectClasses: ( 1.3.6.1.4.1.99999.2.1 NAME 'feidePerson' DESC 'Feide-person (samler edu/norEdu/schac-attributter)' SUP top AUXILIARY MAY ( eduPersonPrincipalName $ eduPersonAffiliation $ eduPersonPrimaryAffiliation $ eduPersonEntitlement $ eduPersonOrgDN $ eduPersonOrgUnitDN $ norEduPersonNIN $ norEduPersonBirthDate $ schacHomeOrganization $ schacPersonalUniqueID ) )
+olcObjectClasses: ( 1.3.6.1.4.1.99999.2.2 NAME 'gogroup' DESC 'Feide info_go gruppe' SUP top STRUCTURAL MUST cn MAY ( displayName $ description $ member $ owner $ goType $ goGrep $ goGrade $ goSchoolYear $ eduPersonOrgUnitDN $ schacHomeOrganization ) )

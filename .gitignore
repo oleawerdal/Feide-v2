@@ -1,0 +1,15 @@
+node_modules/
+dist/
+coverage/
+.env
+.env.*
+!.env.example
+
+# TLS-nøkler og sertifikater skal aldri sjekkes inn.
+certs/
+
+# Logger
+*.log
+npm-debug.log*
+
+.DS_Store

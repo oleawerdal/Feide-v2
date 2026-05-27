@@ -1,0 +1,41 @@
+services:
+  openldap:
+    build:
+      context: ./ldap
+    image: feide-openldap:local
+    container_name: feide-openldap
+    environment:
+      LDAP_BASE_DN: dc=skole,dc=kommune,dc=no
+      LDAP_DOMAIN: skole.kommune.no
+      LDAP_ORG: Skole kommune
+      LDAP_ADMIN_PASSWORD: adminpass
+      LDAP_LOGLEVEL: "256"
+    ports:
+      - "1389:389" # ldap (kun for lokal administrasjon/feilsøking)
+      - "1636:636" # ldaps (kryptert tilkobling fra portalen)
+    volumes:
+      - ./certs:/certs:ro
+      - openldap_data:/var/lib/ldap
+      - openldap_config:/etc/ldap/slapd.d
+    healthcheck:
+      test:
+        - CMD
+        - ldapsearch
+        - "-x"
+        - "-H"
+        - "ldap://127.0.0.1:389"
+        - "-b"
+        - "dc=skole,dc=kommune,dc=no"
+        - "-D"
+        - "cn=admin,dc=skole,dc=kommune,dc=no"
+        - "-w"
+        - "adminpass"
+        - "-s"
+        - "base"
+      interval: 5s
+      timeout: 5s
+      retries: 30
+
+volumes:
+  openldap_data:
+  openldap_config:

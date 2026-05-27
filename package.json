@@ -1,0 +1,46 @@
+{
+  "name": "feide-katalog-portal",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Webbasert administrasjonsportal for Feide brukerkatalog (info_go / grunnskole) over LDAPS",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/server.js",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:integration": "RUN_LDAP_INTEGRATION=1 vitest run test/integration",
+    "gen:data": "node scripts/gen-sample-data.mjs",
+    "certs": "bash scripts/gen-certs.sh",
+    "ldap:up": "docker compose up -d --build",
+    "ldap:down": "docker compose down -v",
+    "ldap:logs": "docker compose logs -f openldap",
+    "ldap:native": "sudo bash scripts/setup-ldap-native.sh"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "express-session": "^1.18.1",
+    "helmet": "^8.0.0",
+    "ldapts": "^7.3.1",
+    "pino": "^9.6.0",
+    "pino-http": "^10.4.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.8",
+    "@types/express": "^4.17.21",
+    "@types/express-session": "^1.18.1",
+    "@types/node": "^22.10.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "vitest": "^2.1.8"
+  }
+}
