@@ -89,8 +89,9 @@ else
   echo "ADVARSEL: fant ikke /certs/ldap.crt – LDAPS deaktiveres"
 fi
 
-kill "$TMP_PID"; wait "$TMP_PID" 2>/dev/null || true
-[ "$FIRST_INIT" = "1" ] && touch "$DB_MARKER"
+kill "$TMP_PID" 2>/dev/null || true
+wait "$TMP_PID" 2>/dev/null || true
+if [ "$FIRST_INIT" = "1" ]; then touch "$DB_MARKER"; fi
 
 if [ "$TLS_OK" = "1" ]; then
   LISTENERS="ldap:/// ldaps:/// ldapi:///"
