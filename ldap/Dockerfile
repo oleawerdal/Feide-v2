@@ -7,7 +7,7 @@ FROM debian:bookworm-slim
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update \
-    && apt-get install -y --no-install-recommends slapd ldap-utils \
+    && apt-get install -y --no-install-recommends slapd ldap-utils openssl \
     && rm -rf /var/lib/apt/lists/*
 
 COPY schema/feide.ldif /schema/feide.ldif

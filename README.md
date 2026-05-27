@@ -80,6 +80,55 @@ Enhetstestene dekker domenelogikken (mod11-validering, eduPPN, GREP-koder,
 gruppetyper) og datakvalitetsmotoren. Integrasjonstesten kjører faktisk
 person-/gruppe-CRUD og en datakvalitetsrapport mot LDAPS.
 
+## Deploy i Coolify
+
+Coolify terminerer HTTPS via sin egen proxy (Traefik + Let's Encrypt), så
+portalen kjører HTTP internt i containeren. Appen har `trust proxy` påslått,
+slik at `secure`-cookies fungerer bak proxyen når `NODE_ENV=production`.
+
+### Alternativ 1 – Produksjon: portalen mot eksisterende katalog (anbefalt)
+
+Dere har allerede en Feide-katalog. Da deployer dere kun portalen:
+
+1. **New Resource → Application → fra Git-repoet**, branch som ønsket.
+2. Build pack: **Dockerfile** (repoet har en `Dockerfile` i rot).
+3. **Port**: `8443` (Exposed/Ports i Coolify).
+4. Sett **domene** på applikasjonen → Coolify ordner TLS automatisk.
+5. **Environment variables** (Coolify → Environment):
+
+   ```
+   NODE_ENV=production
+   PORT=8443
+   LDAP_URL=ldaps://din-ldap-host:636
+   LDAP_BIND_DN=cn=service,dc=...      # tjenestekonto med lesetilgang
+   LDAP_BIND_PASSWORD=********          # marker som secret
+   LDAP_BASE_DN=dc=...
+   LDAP_PEOPLE_OU=ou=people
+   LDAP_GROUPS_OU=ou=groups
+   LDAP_ADMIN_GROUP_DN=cn=feide-admins,ou=groups,dc=...
+   LDAP_CA_FILE=/app/certs/ca.crt       # eller LDAP_TLS_REJECT_UNAUTHORIZED=false
+   REALM=din.realm.no
+   SESSION_SECRET=<openssl rand -hex 32>   # marker som secret
+   ```
+
+   Trenger katalogen en egen CA, legg `ca.crt` inn som en **mounted file** i
+   Coolify (f.eks. `/app/certs/ca.crt`) og pek `LDAP_CA_FILE` dit. Appen krever
+   `ldaps://` og en sterk `SESSION_SECRET` i produksjon (den nekter å starte
+   ellers).
+
+6. Healthcheck-sti: `/healthz`.
+
+### Alternativ 2 – Test/demo: hele stacken (portal + OpenLDAP)
+
+1. **New Resource → Docker Compose → fra Git-repoet**.
+2. Velg compose-fil **`docker-compose.coolify.yml`**.
+3. Sett env: `SESSION_SECRET` og `LDAP_ADMIN_PASSWORD` (begge som secret).
+4. Knytt domenet til **`portal`**-tjenesten (port `8443`).
+
+OpenLDAP-containeren genererer sitt eget selvsignerte sertifikat og deler det
+med portalen via et internt volum, så intern LDAPS er kryptert og verifisert.
+Innlogging: `admin.skole` / `Admin123!` (bytt før reell bruk).
+
 ## Samsvar med Feide
 
 ### Personer (objektklasser `inetOrgPerson` + `feidePerson`)

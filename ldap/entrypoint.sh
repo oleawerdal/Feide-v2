@@ -43,6 +43,18 @@ EOF
   echo "==> Laster eksempeldata"
   ldapadd -x -H ldap://127.0.0.1:389 -D "cn=admin,${SUFFIX}" -w "${ADMIN_PW}" -c -f /bootstrap/data.ldif || true
 
+  # Generer selvsignert sertifikat hvis ingen er montert og /certs er skrivbar
+  # (f.eks. ved deploy i Coolify der det ikke finnes forhåndsgenererte certs).
+  if [ ! -f /certs/ldap.crt ] && ( : > /certs/.wtest 2>/dev/null ); then
+    rm -f /certs/.wtest
+    echo "==> Genererer selvsignert TLS-sertifikat (CN=${LDAP_TLS_CN:-openldap})"
+    openssl req -x509 -newkey rsa:2048 -nodes \
+      -keyout /certs/ldap.key -out /certs/ldap.crt -days 825 \
+      -subj "/C=NO/O=${ORG}/CN=${LDAP_TLS_CN:-openldap}" \
+      -addext "subjectAltName=DNS:${LDAP_TLS_CN:-openldap},DNS:localhost,IP:127.0.0.1"
+    cp /certs/ldap.crt /certs/ca.crt
+  fi
+
   if [ -f /certs/ldap.crt ] && [ -f /certs/ldap.key ]; then
     echo "==> Konfigurerer TLS"
     mkdir -p /etc/ldap/certs

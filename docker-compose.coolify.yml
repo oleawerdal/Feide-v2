@@ -1,0 +1,58 @@
+# Full-stack-deploy for Coolify (portal + intern OpenLDAP med eksempeldata).
+# Bruk denne KUN for test/demo. I produksjon bør portalen heller pekes mot den
+# eksisterende Feide-katalogen (se README – «Coolify»), da deployer du bare
+# Dockerfile-en og setter LDAP_*-variablene.
+#
+# Påkrevde miljøvariabler i Coolify:
+#   SESSION_SECRET         (sterk, tilfeldig – f.eks. `openssl rand -hex 32`)
+#   LDAP_ADMIN_PASSWORD    (passord for cn=admin i den interne katalogen)
+
+services:
+  openldap:
+    build:
+      context: ./ldap
+    restart: unless-stopped
+    environment:
+      LDAP_BASE_DN: dc=skole,dc=kommune,dc=no
+      LDAP_DOMAIN: skole.kommune.no
+      LDAP_ORG: Skole kommune
+      LDAP_ADMIN_PASSWORD: ${LDAP_ADMIN_PASSWORD:?sett LDAP_ADMIN_PASSWORD}
+      LDAP_TLS_CN: openldap
+    volumes:
+      - ldap_data:/var/lib/ldap
+      - ldap_config:/etc/ldap/slapd.d
+      - ldap_certs:/certs
+    healthcheck:
+      test: ["CMD", "ldapsearch", "-x", "-H", "ldap://127.0.0.1:389", "-b", "dc=skole,dc=kommune,dc=no", "-D", "cn=admin,dc=skole,dc=kommune,dc=no", "-w", "${LDAP_ADMIN_PASSWORD}", "-s", "base"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+
+  portal:
+    build:
+      context: .
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      PORT: 8443
+      LDAP_URL: ldaps://openldap:636
+      LDAP_BIND_DN: cn=admin,dc=skole,dc=kommune,dc=no
+      LDAP_BIND_PASSWORD: ${LDAP_ADMIN_PASSWORD:?sett LDAP_ADMIN_PASSWORD}
+      LDAP_BASE_DN: dc=skole,dc=kommune,dc=no
+      LDAP_ADMIN_GROUP_DN: cn=feide-admins,ou=groups,dc=skole,dc=kommune,dc=no
+      LDAP_CA_FILE: /certs/ca.crt
+      LDAP_TLS_REJECT_UNAUTHORIZED: "true"
+      REALM: skole.kommune.no
+      SESSION_SECRET: ${SESSION_SECRET:?sett SESSION_SECRET}
+    volumes:
+      - ldap_certs:/certs:ro
+    expose:
+      - "8443"
+    depends_on:
+      openldap:
+        condition: service_healthy
+
+volumes:
+  ldap_data:
+  ldap_config:
+  ldap_certs:
