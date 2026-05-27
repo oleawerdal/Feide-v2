@@ -23,7 +23,7 @@ services:
       - ldap_config:/etc/ldap/slapd.d
       - ldap_certs:/certs
     healthcheck:
-      test: ["CMD", "ldapsearch", "-x", "-H", "ldap://127.0.0.1:389", "-b", "dc=skole,dc=kommune,dc=no", "-D", "cn=admin,dc=skole,dc=kommune,dc=no", "-w", "${LDAP_ADMIN_PASSWORD}", "-s", "base"]
+      test: ["CMD-SHELL", "LDAPTLS_REQCERT=never ldapsearch -x -H ldaps://127.0.0.1:636 -D cn=admin,dc=skole,dc=kommune,dc=no -w \"$LDAP_ADMIN_PASSWORD\" -b dc=skole,dc=kommune,dc=no -s base >/dev/null 2>&1"]
       interval: 5s
       timeout: 5s
       retries: 30
