@@ -129,6 +129,19 @@ OpenLDAP-containeren genererer sitt eget selvsignerte sertifikat og deler det
 med portalen via et internt volum, så intern LDAPS er kryptert og verifisert.
 Innlogging: `admin.skole` / `Admin123!` (bytt før reell bruk).
 
+### Feilsøking: «Bad Gateway»
+
+Bad Gateway betyr at Coolifys proxy (Traefik) ikke finner riktig container-port
+– appen lytter på **8443**, mens proxyen som standard prøver port 80/3000.
+I apploggen ser du da kun `/healthz`-treff fra `user-agent: node` (containerens
+egen helsesjekk), ingen trafikk fra nettleseren.
+
+- **Dockerfile-app (Alternativ 1):** sett **Ports Exposes = `8443`** i Coolify
+  (Configuration → Network), og knytt domenet til den porten.
+- **Docker Compose (Alternativ 2):** `portal`-tjenesten setter
+  `SERVICE_FQDN_PORTAL_8443`, som forteller Coolify at domenet skal rutes til
+  port 8443. Sørg for at domenet er knyttet til **`portal`**, ikke `openldap`.
+
 ## Samsvar med Feide
 
 ### Personer (objektklasser `inetOrgPerson` + `feidePerson`)

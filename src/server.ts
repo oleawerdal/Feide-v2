@@ -43,7 +43,12 @@ export function createApp(): express.Express {
       hsts: config.isProd ? { maxAge: 31536000, includeSubDomains: true } : false,
     }),
   );
-  app.use(pinoHttp({ logger }));
+  app.use(
+    pinoHttp({
+      logger,
+      autoLogging: { ignore: (req) => req.url === "/healthz" },
+    }),
+  );
   app.use(express.json({ limit: "256kb" }));
   app.use(cookieParser());
   app.use(sessionMiddleware);

@@ -33,6 +33,10 @@ services:
       context: .
     restart: unless-stopped
     environment:
+      # Forteller Coolify at domenet skal rutes til port 8443 i denne tjenesten.
+      # Uten dette gir Traefik «Bad Gateway» fordi den ikke vet hvilken port
+      # appen lytter på. Coolify fyller selv ut FQDN-en.
+      SERVICE_FQDN_PORTAL_8443: "/"
       NODE_ENV: production
       PORT: 8443
       LDAP_URL: ldaps://openldap:636
